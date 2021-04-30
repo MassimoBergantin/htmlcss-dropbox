@@ -60,7 +60,7 @@ header span {
     margin-bottom: 50px;
 }
 header .jumbo {
-    margin-top: -400px;
+    margin-top: -400px; 
     margin-right: 100px;
     float: right;
     width: 50%;
@@ -83,7 +83,7 @@ span.payment-pref {
     margin-top: 50px;
     width: 1000px;
 }
-.container-plans .plans-section-container {
+ .plans-section-container {
     margin: 20px;
     float: left;
     width: calc(100% / 3 - 40px);
@@ -126,13 +126,43 @@ li.plans-check-offer {
 }
 .article2 {
     width: 1000px;
-    height: 250px;
+    height: auto;
     border: 1px solid black;
     margin: 0 auto;
-    margin-top: 250px;
+    margin-top: 300px;
+    padding: 20px;
 }
-.article2 h3 {
+.article2 h4 {
     text-align: center;
 }
+.article2 button {
+    float: right;
+}
+.article2 p {
+    margin: 0;
+}
+.article2 button {
+    margin-top: 30px; 
+}
+.article3 {
+    margin-left: 500px;
+}
+div#partner, .article3 {
+    width: calc(100% / 2);
+    height: 500px;
+    float: left;
+    margin-top: 50px;
+}
+.img-partner {
+    max-width: 100%;
+}
 
-
+.partner-right-container h3, p, button {
+    margin: 50px;
+}
+.article4 {
+    width: 1000px;
+    height: 300px;
+    margin: auto;
+    background-color: blueviolet;
+}
