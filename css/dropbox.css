@@ -163,6 +163,9 @@ div#partner, .article3 {
 .article4 {
     width: 1000px;
     height: 300px;
-    margin: auto;
+    margin-top: 100px;
     background-color: blueviolet;
 }
+
+/* SONO BLOCCATO, METTENDO UN NUOVO ELEMENTO NEL FLUSSO DELL' HTML, QUESTO VA A POSIZIONARSI PRIMA DELL'ULTIMO ELEMENTO  */
+     /* SEND HELP */
