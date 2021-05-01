@@ -1,173 +1,229 @@
-
 * {
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Antonio', sans-serif;;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container {
+    width: 100vw;
+}
+.header-container {
+    width: 100vw;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
 }
 .clearfix::after {
     content: "";
     display: table;
-    clear:both;
+    clear: both;
 }
-body {
-    width: auto;
-    height: auto;
-}
-.container {
-    width: auto;
-    height: auto;
-    margin: 0 auto;
-    margin: 0;
-}
-.header-container {
-    width: 100%;
-    height: auto;
-    padding: 50px;
-}
-header li, ul, img{;
-    line-height: 25px;
-    padding: 0;
+#header-content {
     float: left;
-    width: auto;
+    line-height: 25px
 }
-header li{;
+.header-li {
     list-style: none;
-    margin-right: 25px;
-    text-decoration: underline
+    margin-right: 10px;
 }
-header span {
+.header-ul1 {
+    padding: 0;
+    margin-left: 50px;
+    margin-right: 600px;
+}
+.header-ul2 {
+    padding: 0;
+    margin-right: 50px;
+    margin-left:600px;
+}
+.header-button {
+    float: left;
     line-height: 25px;
-    float: right;
 }
-.header-nav-menu1 {
-    margin-left: 60px;
-    margin-right: 900px;
-}
-.header-container {
-    padding: 50px;
-    width: 100%;
-    height: 50px;
-}   
 .main-banner {
-    width: 100vw;
-    height: 600px;
-    background-color: cornflowerblue;
-}
-.main-banner-title {
-    font-size: xxx-large;
-    padding: 50px 0px 50px 50px;
-    text-decoration: underline;
+    background-color: lightskyblue;
+    padding: 10px;
+    font-size: larger;
+    margin-bottom: 150px;
 }
 #main-banner-content {
-    width: 500px;
-    height: auto;
-    padding-left: 50px;
-    margin-bottom: 50px;
-}
-header .jumbo {
-    margin-top: -400px; 
-    margin-right: 100px;
-    float: right;
-    width: 50%;
-}
-.article1 {
-    width: 1000px;
-    height: 1000px;
-    padding-top: 150px;
-    margin: 0 auto;
-}
-.article1 h1 {
-    font-size: xx-large;
-    text-align: center;margin-bottom: 100px;
-}
-span.payment-pref {
-    margin-left: 250px;
-    
-}
-.container-plans {
-    margin-top: 50px;
-    width: 1000px;
-}
- .plans-section-container {
-    margin: 20px;
-    float: left;
-    width: calc(100% / 3 - 40px);
-    border: 1px solid black;
-}
-div.plans-title {
-    margin-bottom: 10px;
-    font-size: xx-large;
-    text-decoration: underline;
-    margin-top: 10px;
-    text-align: center;
-}
-.plans-section-container h3 {
-    font-size: large;
-    margin-top: 10px;
-    text-align: center;
-
-}
-.plans-section-container ul {
-    list-style: none;
-    margin: 30px ;
-}
-.plans-section-container button {
-    width: 250px;
-    margin-left: 15px;
-    margin-bottom: 25px;
-}
-span.or-shop-now {
-    font-size: 15px;
-    margin: 80px;
-}
-span.plan-offert-title {
-    text-decoration: underline;
-    margin: 40px;
-}
-li.plans-check-offer {
-    font-size: small;
-    margin: 20px 50px 20px 50px
-}
-.article2 {
-    width: 1000px;
-    height: auto;
-    border: 1px solid black;
-    margin: 0 auto;
-    margin-top: 300px;
-    padding: 20px;
-}
-.article2 h4 {
-    text-align: center;
-}
-.article2 button {
-    float: right;
-}
-.article2 p {
-    margin: 0;
-}
-.article2 button {
-    margin-top: 30px; 
-}
-.article3 {
-    margin-left: 500px;
-}
-div#partner, .article3 {
-    width: calc(100% / 2);
-    height: 500px;
-    float: left;
-    margin-top: 50px;
-}
-.img-partner {
-    max-width: 100%;
-}
-.partner-right-container h3, p, button {
     margin: 50px;
 }
-.article4 {
-    width: 1000px;
-    height: 300px;
-    background-color: blueviolet;
+.main-banner-text {
+    width: 400px;
 }
+.free-trial, .cancel-anytime, .main-banner-arrow {
+    text-align: center;
+    width: 300px;
+}
+.main-banner-jumbo {
+    float: right;
+    width: 60%;
+}
+.section1-container {
+    width: 50vw;
+    height: 950px;
+    margin-top: 200px;
+    margin: 0 auto;
+}
+.section1-title {
+    text-align: center;
+    font-size: xx-large;
+    margin-bottom: 50px;
+}
+.plan-main-title {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.payment-pref {
+    margin-left: 200px;
+}
+.plan-title {
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.plan-price {
+    margin-left: 110px;
+    display: block;
+}
+.plan-ul1 {
+    padding: 20px;
+    list-style: none;
+    font-size: 12px;
+    margin-top: 25px;
 
-/* SONO BLOCCATO, METTENDO UN NUOVO ELEMENTO NEL FLUSSO DELL' HTML, QUESTO VA A POSIZIONARSI PRIMA DELL'ULTIMO ELEMENTO  */
-     /* SEND HELP */
+}
+.plan-li1 {
+    margin-bottom: 10px;
+    
+}
+#plan {
+    width: calc(100% / 3 - 20px);
+    margin: 10px;
+    float: left;
+    height: 750px;
+    border: 1px solid black;
+    margin-top: 50px;
+}
+.section1-free-trial {
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+    padding: 15px;
+}
+.section1-buy-now {
+    margin-left: 70px;
+}
+.point-plan {
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.plan-ul2 {
+    padding: 20px;
+    list-style: none;
+    font-size: 12px;
+    margin-top: 25px;
+}
+.plan-li2 {
+    margin-bottom: 10px;
+}
+.section2-container{
+    width: 950px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 0 auto ;
+    padding: 20px;
+}
+.enterprise-team {
+    text-align: center;
+    margin-bottom: 15px;
+}
+.enterprise-button {
+    padding: 15px;
+    margin-top: 25px;
+    float: right;
+}
+.enterprise-text {
+    font-size: 14px;
+}
+#enterprise {
+    margin: 10px;
+}
+#section3-box {
+    float: left;
+    width: calc(100% / 2);
+    height: 500px;
+}
+.section3-text {
+    padding: 100px;
+    text-align: center;
+}
+.section3-sub-title {
+    width: 300px;
+    margin: 0 auto;
+}
+.section3-container {
+    width: 950px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.section3-img {
+    border-radius: 30px;
+    width: 110%;
+}
+.section4-box {
+    float: left;
+    width: calc(100% / 3);
+    height: 300px;
+    padding: 25px;
+    margin-top: 50px;
+}
+.section4-container {
+    text-align: left;
+    width: 1000px;
+    height: 900px;
+    margin: 0 auto  ;
+}
+.box-img {
+    width: 60%;
+}
+.section4-main-title {
+    text-align: center;
+}
+.section5-container {
+    width: 100%;
+    height: 600px;
+    border: 2px solid black;
+
+}
+.section5-lin, .section5-main-title {
+    margin-left: 500px;
+}
+.teams-record {
+    width: 90%;
+    height: 90%;
+
+    margin: 0 auto;
+}
+#section5-3boxes {
+    width: calc(100% / 3);
+    height: 100%;
+    border: 1px solid black;
+    float: left;
+}
+#boxes-sections {
+    float: left;
+    width: 50%;
+    height: 50%;
+    border: 1px solid black;
+}
+.Designit {
+    width: 100%;
+    background-image: url(../img/designit.svg);
+    background-color: crimson;
+    background-position: center;
+    background-size: cover;
+}

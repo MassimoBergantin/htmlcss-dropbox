@@ -1,158 +1,245 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dropbox</title>
     <link rel="stylesheet" href="css/dropbox.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@600&display=swap" rel="stylesheet">
+    <title>Document</title>
 </head>
 <body>
-   <div class="container clearfix">
-       <header>
-           <div class="header-container">
-               <img class="header-logo fl" src="img/logo-small.png" alt="">
-               <ul class="header-nav-menu1 fl">
-                <li>Perché Dropbox?</li>
-                <li>Funzioni</li>
-                <li>Piani e prezzi</li>
-               </ul>
-                <ul class="header-nav-menu2 fl">
-                 <li>Supporto</li>
-                 <li>Contatto l'ufficio vendite</li>
-                 <li>Accedi</li>
-                </ul>
-                <span class="start-button fl">Inizia</span>              
-           </div>
-           <div class="main-banner">   
-                <h1 class="main-banner-title">Trova il piano di  Dropbox business che fa per te</h1>
+    <div class="container clearfix">
+        <header>
+            <div class="header-container">
+                <img id="header-content" class="header-logo" src="img/logo-small.png" alt="">
+                <nav>
+                    <ul id="header-content"  class="header-ul1">
+                        <li id="header-content"  class="header-li">dropbox</li>
+                        <li id="header-content"  class="header-li">dropbox</li>
+                        <li id="header-content"  class="header-li">dropbox</li>
+                    </ul>
+                    <ul id="header-content"  class="header-ul2">
+                        <li id="header-content"  class="header-li">dropbox</li>
+                        <li id="header-content"  class="header-li">dropbox</li>
+                        <li id="header-content"  class="header-li">dropbox</li>
+                    </ul>
+                </nav>
+                <button class="header-button">INIZIA</button>
+            </div>
+        </header>
+        <main>
+            <div class="main-banner">   
+                <h1  id="main-banner-content" class="main-banner-title">Trova il piano di  Dropbox business che fa per te</h1>
+                <img class="main-banner-jumbo" src="img/jumbo.png" alt="">
                 <p id="main-banner-content" class="main-banner-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae tempora repellendus commodi, cumque facere id in, quam quaerat ut voluptatibus sed natus molestias enim consequuntur culpa. Iusto distinctio alias assumenda!</p>
-                <p id="main-banner-content" class="free-trial">Inizia la prova gratuita</p>
+                <button id="main-banner-content" class="free-trial">Inizia la prova gratuita</button>
                 <p id="main-banner-content" class="cancel-anytime">Cancella in qualsiasi momento</p>
                 <p id="main-banner-content" class="main-banner-arrow">&#8595;   </p>
            </div>
-           <img class="jumbo" src="img/jumbo.png" alt="">              
-       </header>
-       <section>
-           <article>
-               <div  class="article1">
-                   <h1 class="article1-title">
-                       Trova il piano che fa per te
-                   </h1>
-                   <span class="payment-pref"><input type="checkbox"> Fatturazione mensile</span>
-                   <span class="payment-pref"><input type="checkbox"> Fatturazione annuale</span>
+        </main>
+        <section>
+            <div class="section1-container">
 
-                   <div class="container-plans">
-                       <div class="plans-section-container">
-                           <div class="plans-title">Singolo</div>
-                           <hr>
-                           <h3>Professional <br> 20.00£/mese</h3>
-                           <ul>
-                               <li>  &hearts;  10 utenti</li>
-                               <li>  &hearts; 35 Petabyte</li>
-                               <li>  &hearts; Funzionalità premium</li>
+                <h1 class="section1-title">
+                    Trova il piano che fa per te
+                </h1>
+                <span class="payment-pref"><input type="checkbox"> Fatturazione mensile</span>
+                <span class="payment-pref"><input type="checkbox"> Fatturazione annuale</span>
+                <div class="plans-container">
+                    <div id="plan" class="plan1">
+                        <h2 class="plan-main-title">
+                            &cross; SINGOLO</h2>
+                        <hr>
+                        <h3 class="plan-title">Professional</h3>
+                        <span class="plan-price">19.90£/mese</span>
+                        <br>
+                        <ul class="plan-ul1">
+                            <li class="plan-li1">&check; 1 utente</li>
+                            <li class="plan-li1">&check; 1 terabite di archiviazione</li>
+                            <li class="plan-li1">&check; possibilità di condividere file con amici</li>
+                            <button class="section1-free-trial">Prova gratis per 1 anno</button> <br>
+                            <span class="section1-buy-now"> oppure <a href="">acquista ora</a></span>
+                        </ul>
+                        <hr>
+                        <h4 class="point-plan">Punti salienti del piano</h4>
+                        <ul class="plan-ul2">
+                            <li class="plan-li2"> &check; Invia file fino a 100 GB con Dropbox transfer</li>
+                            <li class="plan-li2"> &check; Cartelle offline sui dispositivi mobili</li>
+                            <li class="plan-li2"> &check; Pulizia remota dell'account</li>
+                            <li class="plan-li2"> &check; Filigrana documento</li>
+                            <li class="plan-li2"> &check; Assistenza prioritaria via mail e chat</li>
+
+                        </ul>
+
+                    </div>
+                    
+                </div>
+                
+                    <div id="plan" class="plan1">
+                        <h2 class="plan-main-title">
+                            &cross; SINGOLO</h2>
+                        <hr>
+                        <h3 class="plan-title">Professional</h3>
+                        <span class="plan-price">19.90£/mese</span>
+                        <br>
+                        <ul class="plan-ul1">
+                            <li class="plan-li1">&check; 1 utente</li>
+                            <li class="plan-li1">&check; 1 terabite di archiviazione</li>
+                            <li class="plan-li1">&check; possibilità di condividere file con amici</li>
+                            <button class="section1-free-trial">Prova gratis per 1 anno</button> <br>
+                            <span class="section1-buy-now"> oppure <a href="">acquista ora</a></span>
+                        </ul>
+                        <hr>
+                        <h4 class="point-plan">Punti salienti del piano</h4>
+                        <ul class="plan-ul2">
+                            <li class="plan-li2"> &check; Invia file fino a 100 GB con Dropbox transfer</li>
+                            <li class="plan-li2"> &check; Cartelle offline sui dispositivi mobili</li>
+                            <li class="plan-li2"> &check; Pulizia remota dell'account</li>
+                            <li class="plan-li2"> &check; Filigrana documento</li>
+                            <li class="plan-li2"> &check; Assistenza prioritaria via mail e chat</li>
+
+                        </ul>
+
+                    </div>
+                    
+                 
+                    
+                        <div id="plan" class="plan1">
+                            <h2 class="plan-main-title">&cross; SINGOLO</h2>
+                            <hr>
+                            <h3 class="plan-title">Professional</h3>
+                            <span class="plan-price">19.90£/mese</span>
+                            <br>
+                            <ul class="plan-ul1">
+                              <li class="plan-li1">&check; 1 utente</li>
+                              <li class="plan-li1">&check; 1 terabite di archiviazione</li>
+                              <li class="plan-li1">&check; possibilità di condividere file con amici</li>
+                              <button class="section1-free-trial">Prova gratis per 1 anno</button> <br>
+                              <span class="section1-buy-now"> oppure <a href="">acquista ora</a></span>
+                            </ul>
+                            <hr>
+                            <h4 class="point-plan">Punti salienti del piano</h4>
+                           <ul class="plan-ul2">
+                              <li class="plan-li2"> &check; Invia file fino a 100 GB con Dropbox transfer</li>
+                              <li class="plan-li2"> &check; Cartelle offline sui dispositivi mobili</li>
+                              <li class="plan-li2"> &check; Pulizia remota dell'account</li>
+                              <li class="plan-li2"> &check; Filigrana documento</li>
+                              <li class="plan-li2"> &check; Assistenza prioritaria via mail e chat</li>
                            </ul>
-                           <button>Prova gratuita 100 anni</button>
-                           <span class="or-shop-now">oppure acquista ora</span>
-                           <br>
-                           <ul>
-                               <span class="plan-offert-title">Punti salienti del piano</span>
-                               <li class="plans-check-offer"> &check; Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
-                               <li class="plans-check-offer"> &check; Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
-                               <li class="plans-check-offer"> &check; Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
-                               <li class="plans-check-offer"> &check; Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
-                               
-                           </ul>                           
-                       </div>
-                       <div class="plans-section-container">
-                           <div class="plans-title">Singolo</div>
-                           <hr>
-                           <h3>Professional <br> 20.00£/mese</h3>
-                           <ul>
-                               <li>  &hearts;  10 utenti</li>
-                               <li>  &hearts; 35 Petabyte</li>
-                               <li>  &hearts; Funzionalità premium</li>
-                           </ul>
-                           <button>Prova gratuita 100 anni</button>
-                           <span class="or-shop-now">oppure acquista ora</span>
-                           <br>
-                           <ul>
-                               <span class="plan-offert-title">Punti salienti del piano</span>
-                               <li class="plans-check-offer"> &check; Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
-                               <li class="plans-check-offer"> &check; Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
-                               <li class="plans-check-offer"> &check; Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
-                               <li class="plans-check-offer"> &check; Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
-                               
-                           </ul>                           
-                       </div>
-                       <div class="plans-section-container">
-                           <div class="plans-title">Famiglia</div>
-                           <hr>
-                           <h3>Professional <br> 20.00£/mese</h3>
-                           <ul>
-                               <li> &hearts;  10 utenti</li>
-                               <li> &hearts; 35 Petabyte</li>
-                               <li> &hearts; Funzionalità premium</li>
-                           </ul>
-                           <button>Prova gratuita 100 anni</button>
-                           <span class="or-shop-now">oppure acquista ora</span>                          
-                           <br>
-                           <ul>
-                               <span class="plan-offert-title">Punti salienti del piano</span>
-                               <li class="plans-check-offer"> &check; Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
-                               <li class="plans-check-offer"> &check; Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
-                               <li class="plans-check-offer"> &check; Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
-                               <li class="plans-check-offer"> &check; Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
-                               
-                           </ul>
-                       </div>
-                   </div>
 
-               </div>
+                        </div>
+                </div>
+                
 
-           </article>
-       </section>
-       <section>
-           <article>
-               <div class="article2">
-                   <button><a href="">Contatta l'ufficio</a></button>
-                   <h4> &hearts; Team</h4>
-                   <hr>
-                   <h3>Enterprise</h3>
-                   <span>Contatta l'ufficio per i prezzi</span>
-                   <p> soluzioni personalizzate il supporto su misura per aiutare i professionisti italiani nella gestione su qualsiasi scala</p>
-               </div>
+            </div>
+            <section>
+                <div class="section2-container">
+                    <h4 class="enterprise-team"> &hearts; Team</h4>
+                    <hr>
+                    <button class="enterprise-button">Contatta l'ufficio vendite</button>
+                    <h2 id="enterprise" class="enterprise">Enterprise</h2>
+                    <h5 id="enterprise" class="enterprise-office"> contatta ufficio vendite per i prezzi</h5>
+                    <p id="enterprise" class="enterprise-text">Soluzioni personalizzate supporto su misura per aiutare i professionisti It nella gestione su qualsiasi scala</p>
+                </div>
+            </section>
+            <section>
+                <div class="section3-container">
 
-           </article>
+                    <div id="section3-box">
+                        <img class="section3-img" src="img/partner.png" alt="">
+                    </div>
+                    <div id="section3-box" class="section3-text">
+                        <h4 class="section3-title">Entra in contatto coon un partner Dropbox</h4>
+                        <p class="section3-sub-title">Trova un partner Dropbox e HelloSign di fiducia. Ottieni soluzioni servizi necessari per raggiungere i tuoi obiettivi aziendali, tra cui implementazione, integrazione, gestione e supporto continui</p>
+                        <button class="section3-button">Trova un partner &hearts;</button>
 
-       </section>
-       <section>
-           <article>
-               <div class="article3">
-                   <div id="partner" class="partner-left-container"> 
-                       <img class="img-partner" src="img/partner.png" alt="">
-                   </div>
-                   <div id="partner"  class="partner-right-container">
-                       <h3>Entra in contatto con un partner dropbox</h3>
-                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut porro aspernatur, autem nulla consequatur odit quidem vitae nihil rem impedit, sit, qui exercitationem quo. Ipsum obcaecati natus magni. Sequi, officiis.</p>
-                       <button><a href="">Trova un partner &hearts;</a></button>  
-                   </div>  
-               </div>
-           </article>
-       </section>
-       <section class="session4">
-           <article>
-               <div class="article4">
-                   <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati iure voluptatem architecto eligendi mollitia. Doloribus, aperiam quos corporis suscipit praesentium sed quaerat animi, perferendis ullam error, consequatur magnam ratione nemo.</div>
-                   <div></div>
-                   <div></div>
-                   <div></div>
-               </div>
-           </article>
-       </section>
-   </div>
+                </div>
+
+            </section>
+            <section>
+                <div class="section4-container">
+                    <h3 class="section4-main-title">Esegui più operazioni con Dropbox Business</h3>
+                    <div class="section4-box">
+                        <img class="box-img" src="img/business-feature-switching-tools.png" alt="">
+                        <h5 class="box-title">Passati meno da uno strumento all'altro</h5>
+                        <p class="box-text">
+                            Porta a termine le attività quotidiane con un solo strumento.crea, modifica e condividi contenuti iCloud da documenti, fogli e presentazioni di Google, file Microsoft Office e <a href=""> Dropbox Paper</a> direttamente da Dropbox
+                        </p>
+                    </div>
+                    <div class="section4-box">
+                        <img class="box-img" src="img/business-feature-switching-tools.png" alt="">
+                        <h5 class="box-title">Passati meno da uno strumento all'altro</h5>
+                        <p class="box-text">
+                            Porta a termine le attività quotidiane con un solo strumento.crea, modifica e condividi contenuti iCloud da documenti, fogli e presentazioni di Google, file Microsoft Office e <a href=""> Dropbox Paper</a> direttamente da Dropbox
+                        </p>
+                    </div>
+                    <div class="section4-box">
+                        <img class="box-img" src="img/business-feature-switching-tools.png" alt="">
+                        <h5 class="box-title">Passati meno da uno strumento all'altro</h5>
+                        <p class="box-text">
+                            Porta a termine le attività quotidiane con un solo strumento.crea, modifica e condividi contenuti iCloud da documenti, fogli e presentazioni di Google, file Microsoft Office e <a href=""> Dropbox Paper</a> direttamente da Dropbox
+                        </p>
+                    </div>
+                    <div class="section4-box">
+                        <img class="box-img" src="img/business-feature-switching-tools.png" alt="">
+                        <h5 class="box-title">Passati meno da uno strumento all'altro</h5>
+                        <p class="box-text">
+                            Porta a termine le attività quotidiane con un solo strumento.crea, modifica e condividi contenuti iCloud da documenti, fogli e presentazioni di Google, file Microsoft Office e <a href=""> Dropbox Paper</a> direttamente da Dropbox
+                        </p>
+                    </div>
+                    <div class="section4-box">
+                        <img class="box-img" src="img/business-feature-switching-tools.png" alt="">
+                        <h5 class="box-title">Passati meno da uno strumento all'altro</h5>
+                        <p class="box-text">
+                            Porta a termine le attività quotidiane con un solo strumento.crea, modifica e condividi contenuti iCloud da documenti, fogli e presentazioni di Google, file Microsoft Office e <a href=""> Dropbox Paper</a> direttamente da Dropbox
+                        </p>
+                    </div>
+                    <div class="section4-box">
+                        <img class="box-img" src="img/business-feature-switching-tools.png" alt="">
+                        <h5 class="box-title">Passati meno da uno strumento all'altro</h5>
+                        <p class="box-text">
+                            Porta a termine le attività quotidiane con un solo strumento.crea, modifica e condividi contenuti iCloud da documenti, fogli e presentazioni di Google, file Microsoft Office e <a href=""> Dropbox Paper</a> direttamente da Dropbox
+                        </p>
+                    </div>                                                                                                    
+                </div>
+            </section>
+            <section>
+                <div class="section5-container">
+                    <h3 class="section5-main-title">
+                        Più di 500.000 team utilizzano Dropbox Business
+                    </h3>
+                    <a class="section5-lin" href="">Scopri di più sui nostri clienti</a>
+                    <div class="teams-record">
+                        <div id="section5-3boxes"  class="team-box1">
+                           <div id="boxes-sections" class="Designit"></div> 
+                           <div id="boxes-sections" class="A.S.U"></div> 
+                           <div id="boxes-sections" class="U.F"></div> 
+                           <div id="boxes-sections" class="topps"></div> 
+                        </div>
+                        <div id="section5-3boxes" class="recod">
+                            <img class="record-logo" src="" alt="">
+                            <p>"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis qui sequi iure assumenda inventore nihil sint cum atque labore aliquam dolorem nemo repellendus voluptate ipsa, voluptatum ea consequatur aut! Expedita."<br> Massimo Bergantin,Booleaner ZY
+                            </p>
+                        </div>
+                        <div id="section5-3boxes" class="team-box2">
+                            <div id="boxes-sections" class="World-bicycle"></div>
+                            <div id="boxes-sections" class="HEARTS"></div> 
+                            <div id="boxes-sections" class="lonely-planet"></div> 
+                            <div id="boxes-sections" class="Clear-channel"></div> 
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            
+
+
+
+            </div>
+        </section>
+
+    </div>
+    
 </body>
 </html>
