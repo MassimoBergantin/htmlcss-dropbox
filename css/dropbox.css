@@ -6,6 +6,9 @@
 .container {
     width: 100vw;
 }
+.header-logo {
+    margin-left: 15px;
+}
 .header-container {
     width: 100vw;
     height: 30px;
@@ -24,34 +27,56 @@
     line-height: 25px
 }
 .header-li {
+    font-size: 14px;
     list-style: none;
-    margin-right: 10px;
+    margin-right: 30px;
 }
 .header-ul1 {
     padding: 0;
     margin-left: 50px;
-    margin-right: 600px;
+    margin-right: 400px;
 }
 .header-ul2 {
     padding: 0;
-    margin-right: 50px;
-    margin-left:600px;
+    margin-right: 45px;
+    margin-left: 500px;
 }
 .header-button {
+    padding: 5px 20px 5px 20px;
+    color: white;
+    background-color: #3B85FF;
     float: left;
-    line-height: 25px;
+    border: 0;
 }
 .main-banner {
     background-color: lightskyblue;
     padding: 10px;
     font-size: larger;
     margin-bottom: 150px;
+    margin-left: ;
+
+}
+.main-banner-title {
+    font-size: 60px;
 }
 #main-banner-content {
-    margin: 50px;
+    margin: 50px 0px 50px 200px;
 }
 .main-banner-text {
     width: 400px;
+    font-size: 16px;
+}
+.free-trial {
+    font-size: 16px;
+    border: 0;
+    color: white;
+    background-color: #3B85FF;
+    padding: 20px;
+}
+.cancel-anytime {
+    font-size: 14px;
+    text-decoration: underline;
+
 }
 .free-trial, .cancel-anytime, .main-banner-arrow {
     text-align: center;
@@ -60,33 +85,48 @@
 .main-banner-jumbo {
     float: right;
     width: 60%;
+    margin-right: 50px;
 }
 .section1-container {
     width: 50vw;
-    height: 950px;
-    margin-top: 200px;
+    height: 1150px;
+    margin-top: 20px;
     margin: 0 auto;
 }
 .section1-title {
     text-align: center;
-    font-size: xx-large;
-    margin-bottom: 50px;
+    font-size: xxx-large;
+    margin-bottom: 100px;
+    padding-top: 50px;
+}
+.section1-checks {
+    color: #3B85FF;
+    font-size: 14px;
 }
 .plan-main-title {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
+    line-height: 22px;
 }
+
 .payment-pref {
     margin-left: 200px;
+
 }
 .plan-title {
     margin-top: 50px;
     margin-left: 100px;
 }
 .plan-price {
-    margin-left: 110px;
-    display: block;
+    color: rgb(164, 159, 159);
+    margin-left: 50px;
+    font-size:  12px;
+}
+.plan-price1 {
+    color: rgb(164, 159, 159);
+    margin-left: 120px;
+    font-size:  12px;
 }
 .plan-ul1 {
     padding: 20px;
@@ -97,21 +137,35 @@
 }
 .plan-li1 {
     margin-bottom: 10px;
+    text-align: center;
     
 }
 #plan {
     width: calc(100% / 3 - 20px);
     margin: 10px;
     float: left;
-    height: 750px;
+    height: 800px;
     border: 1px solid black;
     margin-top: 50px;
+}
+.plan-li1-3 {
+    font-size: 12px;
+    margin-bottom: 10px;
+    text-align: center;
 }
 .section1-free-trial {
     margin-top: 50px;
     margin-left: 40px;
     margin-bottom: 50px;
     padding: 15px;
+    background-color: #3B85FF;
+    color: white;
+    border: 0;
+}
+#section1-free-trial {
+    margin-top: 35px;
+    margin-left: 40px;
+    margin-bottom: 50px;
 }
 .section1-buy-now {
     margin-left: 70px;
@@ -125,6 +179,7 @@
     list-style: none;
     font-size: 12px;
     margin-top: 25px;
+    text-align: center;
 }
 .plan-li2 {
     margin-bottom: 10px;
@@ -141,12 +196,18 @@
     margin-bottom: 15px;
 }
 .enterprise-button {
+    background-color: #3B85FF;
+    border: 0;
+    color: white;
     padding: 15px;
     margin-top: 25px;
     float: right;
 }
 .enterprise-text {
     font-size: 14px;
+}
+.section2-container {
+    margin-bottom: 50px;
 }
 #enterprise {
     margin: 10px;
@@ -156,74 +217,221 @@
     width: calc(100% / 2);
     height: 500px;
 }
+.section3-title {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 .section3-text {
-    padding: 100px;
     text-align: center;
+    margin-bottom: 50px;
 }
 .section3-sub-title {
     width: 300px;
     margin: 0 auto;
+    margin-bottom: 50px;
 }
 .section3-container {
     width: 950px;
     height: 500px;
     margin: 0 auto;
-    margin-top: 100px;
 }
 .section3-img {
-    border-radius: 30px;
-    width: 110%;
+    width: 100%;
+    margin-right: 50px;
+}
+.section3-button {
+    background-color: #3B85FF;
+    border: 0;
+    color: white;
+    padding: 15px;
+}
+.partner-hearts {
+    font-size: large;
+    color: red;
 }
 .section4-box {
     float: left;
     width: calc(100% / 3);
-    height: 300px;
+    height: 400px;
     padding: 25px;
     margin-top: 50px;
 }
 .section4-container {
     text-align: left;
     width: 1000px;
-    height: 900px;
+    height: 1100px;
     margin: 0 auto  ;
 }
 .box-img {
-    width: 60%;
+    width: 90%;
 }
+.box-text {
+    margin-top: 25px;
+    font-size: 14px;
+}
+
 .section4-main-title {
+    font-size: xx-large;
     text-align: center;
 }
 .section5-container {
     width: 100%;
     height: 600px;
-    border: 2px solid black;
 
 }
-.section5-lin, .section5-main-title {
-    margin-left: 500px;
+.section5-main-title {
+    margin-left: 650px;
+    margin-bottom: 25px;
 }
 .teams-record {
+    padding-top: 50px;
     width: 90%;
     height: 90%;
-
     margin: 0 auto;
+    padding-bottom: 50px;
 }
 #section5-3boxes {
     width: calc(100% / 3);
     height: 100%;
-    border: 1px solid black;
     float: left;
+}
+.section5-link {
+    padding-top: 80px;
+    font-size: medium;
+    margin-left: 825px;
 }
 #boxes-sections {
     float: left;
     width: 50%;
     height: 50%;
-    border: 1px solid black;
+    background-position: center;
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+.record-logo {
+    margin-left: 160px;
+    margin-bottom: 50px;
+}
+.recod {
+    background: rgb(244, 241, 241);
+    padding: 60px;
+}
+.mb {
+    text-align: center;
+    margin-top: 100px;
 }
 .Designit {
-    width: 100%;
     background-image: url(../img/designit.svg);
-    background-color: crimson;
-    background-position: center;
-    background-size: cover;
+    background-color:  #077b8a;
+}
+.A-S-U {
+    background-image: url(../img/arizona_state_university.svg);
+    background-color: salmon;
+}
+.U-F {
+    background-image: url(../img/university_of_florida.svg);
+    background-color: tan;
+}
+.topps {
+    background-image: url(../img/topps.svg);
+    background-color: steelblue;
+}
+.World-bicycle {
+    background-image: url(../img/world_bicycle_relief.svg);
+    background-color: plum;
+}
+.HEARTS {
+    background-image: url(../img/hearst_corp.svg);
+    background-color: peru;
+}
+.lonely-planet {
+    background-image: url(../img/lonely_planet.svg);
+    background-color: mediumaquamarine;
+}
+.Clear-channel {
+    background-image: url(../img/clear_channel.svg);
+    background-color: olivedrab;
+}
+.section6-container {
+     width: 100%;
+     height: 250px;
+     background-color: salmon
+}
+#section6-content {
+    float: left;
+    margin-top: 90px;
+    margin-left: 400px;
+}
+.section6-title {
+    font-size: xx-large;
+    width: 500px;
+}
+.section6-button {
+    background-color: white;
+    border: 0;
+    padding: 5px 50px 5px 50px;
+
+}
+.section7-container {
+    width: 100%;
+    height: 500px;
+}
+.question-container {
+    width: 1000px;
+    height: 500px;
+    margin-left: 500px;
+    margin-top: 100px;
+}
+.question-lines {
+    width: 700px;
+}
+.section7-symbol {
+    padding-top: 20px;
+    margin-right: 250px;
+    float: right;
+}
+.questions {
+    color: rgb(176, 175, 175);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.section7-main-title {
+    font-size: xx-large;
+    margin-bottom: 30px;
+}
+.footer-container {
+    background-color: black;
+    width: 100%;
+    height: 600px;
+}
+.footer-content {
+    color: white;
+    width: 1100px;
+    height: 500px;
+    margin-left: 500px;
+    padding-top: 100px;
+}
+.footer-ul {
+    width: calc(100% / 5);
+    margin-top: 100px;
+    float: left;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+
+    margin-bottom: 100px;
+}
+.footer-li {
+    font-size: 12px;
+    margin-top: 15px;
+    color: lightgray;
+}
+.hr-footer {
+    width: 100px;
+}
+.lenguage {
+    margin-top: 50px;
+}
+.footer-globe {
+    margin-right: 10px;
 }
